@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+.hide {
+    display: none;
+}
+
+.parent {
+    background-color: brown;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 8px;
+    padding-top: 1px;
+}
+
+.parent button {
+    background-color: rgb(107, 27, 27);
+    border: none;
+    border-radius: 4px;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 5px;
+    margin-right: 5px;
+    line-height: 11px;
+    width: 15px;
+    height: 15px;
+}
+
+.child {
+    background-color:chocolate;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.child:first-of-type {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-bottom: 0;
+}
+
+.child:last-of-type {
+    padding-top: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.child button {
+    background-color: rgb(128, 59, 10);
+}
+
+.p_btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
